@@ -1,3 +1,6 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
 body{
     background-color: black;
 }
@@ -62,6 +65,7 @@ p {
     min-width: 290px;
     max-width: 1000px;
     display: flex;
+    color:grey;
     justify-content: space-between;
 }
 
@@ -80,7 +84,7 @@ p {
     cursor: pointer;
 }
 .navs:hover{
-    color:rgb(229, 255, 0)
+    color:rgb(255, 255, 255)
 }
 
 .icon-1,.icon-2,.icon-3,.icon-4 {
