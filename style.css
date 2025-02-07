@@ -112,6 +112,11 @@ p {
 
 @media only screen and (max-width: 900px) {
     #navigation {
-      display: none;
+        display: none;
+
+    }   
+
+    img{
+        filter:grayscale(0%);
     }
   }
